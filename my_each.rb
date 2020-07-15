@@ -1,7 +1,10 @@
 def my_each(array)
-  i = 0
-  while x < array.length 
-  yield(array[i])
-  i = i + 1 
+  y = 0
+  while y < array.length 
+  yield(array[y])
+  y = y + 1 
  end
+ 
+ array 
+ 
 end

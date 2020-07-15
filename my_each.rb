@@ -1,9 +1,7 @@
-def my_each
-  if block_given?
-  i = 0 
-  while i < self.size 
-  yield(self[i])
-    i += 1 
-  end
+def my_each(array)
+  x = 0 
+  while x < array.length 
+  yield(array[x])
+  x = x + 1 
  end
 end
